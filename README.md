@@ -1,6 +1,4 @@
-# tf_aws_demo_w_yml
-
-# AWS EC2 Instances Deployment with Terraform
+# AWS EC2 Instances Deployment with Terraform and a Yaml Config file
 
 ## Overview
 This Terraform project automates the deployment of Amazon EC2 instances. It leverages AWS as the cloud provider and uses YAML configurations to specify instance details dynamically. The project is designed to illustrate best practices in infrastructure-as-code (IaC) deployment using Terraform.
@@ -28,3 +26,15 @@ This Terraform project automates the deployment of Amazon EC2 instances. It leve
 
 ## Getting Started
 1. **Clone the Repository**:
+  - git clone https://github.com/your-repository-url
+2. **Navigate to the Project Directory**:
+  - cd path-to-your-project
+3. **Initialize Terraform**:
+  - terraform init
+4. **Apply the Terraform Configuration**:
+  - terraform apply
+
+## Prerequisites
+- An AWS account
+- Terraform installed
+- AWS CLI configured with appropriate credentials

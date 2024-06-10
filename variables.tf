@@ -1,12 +1,13 @@
-variable "AWS_ACCESS_KEY" {
+variable "AWS_ACCESS_KEY_ID" {
+  description = "AWS Access Key ID"
   type        = string
-  # Consider removing or securely managing access keys through environment variables
 }
 
 variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS Secret Access Key"
   type        = string
-  # Consider removing or securely managing secret keys through environment variables
 }
+
 
 variable "aws_region" {
   description = "Region in which AWS resources are to be created."

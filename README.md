@@ -38,3 +38,11 @@ This Terraform project automates the deployment of Amazon EC2 instances. It leve
 - An AWS account
 - Terraform installed
 - AWS CLI configured with appropriate credentials
+
+## Resource Documentation
+Below are links to the official Terraform Registry documentation for the AWS resources used in this project:
+- [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [EC2 Instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
+- [Security Group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
+- [S3 Bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+- [AMI Data Source](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami)

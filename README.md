@@ -26,7 +26,7 @@ This Terraform project automates the deployment of Amazon EC2 instances. It leve
 
 ## Getting Started
 1. **Clone the Repository**:
-  - git clone https://github.com/your-repository-url
+  - git clone [https://github.com/your-repository-url](https://github.com/chopinregis/tf_aws_demo_w_yml.git)
 2. **Navigate to the Project Directory**:
   - cd path-to-your-project
 3. **Initialize Terraform**:
